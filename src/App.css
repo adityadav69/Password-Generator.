@@ -1,0 +1,18 @@
+
+body {
+  background-color:rgb(14, 14, 26);
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width:800px) {
+  .selector{
+    flex-direction: column;
+  }
+  .range{
+    flex-direction: column;
+    align-items: start;
+  }
+}
